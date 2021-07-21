@@ -1,6 +1,6 @@
 {
   "name": "movies",
-  "homepage": "http://harpreet1602.github.io/Web-Development-Pepcoding/tree/master/React/moviesApp/movies",
+  "homepage": "http://harpreet1602.github.io/movies_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -42,5 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:4000"
+  "proxy": "http://localhost:4000",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
